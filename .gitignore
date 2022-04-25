@@ -6,8 +6,10 @@
 
 # production
 /dist
+/artifacts
 
 # misc
 .DS_Store
 *.local
 .vercel
+/cache
