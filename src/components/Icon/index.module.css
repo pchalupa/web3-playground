@@ -1,0 +1,7 @@
+.container {
+	font-size: var(--icon-size, 1em);
+
+ 	& > path {
+		fill: var(--icon-fill-color, initial);
+	 }
+}

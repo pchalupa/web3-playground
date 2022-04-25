@@ -1,0 +1,10 @@
+:root {
+	/* color */
+	--color-white: hsl(0deg 0% 100%);
+	--color-gray: hsl(0deg 0% 50%);
+	--color-black: hsl(0deg 0% 0%);
+	--color-primary: var(--color-black);
+
+	/* font */
+	--font-primary: system-ui;
+}

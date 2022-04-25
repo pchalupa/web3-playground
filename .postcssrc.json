@@ -1,0 +1,13 @@
+{
+	"plugins": {
+		"postcss-easings": {},
+		"cssnano": { "preset": "default" },
+		"postcss-preset-env": {
+			"features": {
+				"nesting-rules": true,
+				"media-query-ranges": true,
+				"custom-media-queries": true
+			}
+		}
+	}
+}

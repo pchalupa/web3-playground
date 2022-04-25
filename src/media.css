@@ -1,0 +1,4 @@
+@custom-media --small-window (width < 360px);
+@custom-media --medium-window (360px <= width < 1024px);
+@custom-media --medium-window-below (width < 1024px);
+@custom-media --large-window (width >= 1024px);

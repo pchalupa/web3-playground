@@ -1,0 +1,36 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"compilerOptions": {
+		"target": "ES6",
+		"lib": ["DOM", "DOM.Iterable", "ESNext"],
+		"jsx": "react-jsx",
+		"module": "ESNext",
+		"types": [
+			"vite/client",
+			"vitest/globals",
+			"@honkhonk/vite-plugin-svgr/client"
+		],
+		"moduleResolution": "node",
+		"baseUrl": "./",
+		"paths": {
+			"@assets/*": ["src/assets/*"],
+			"@components/*": ["src/components/*"],
+			"@layouts/*": ["src/layouts/*"],
+			"@routes/*": ["src/routes/*"],
+			"@routes": ["src/routes"],
+			"@contexts": ["src/contexts"],
+			"@hooks/*": ["src/hooks/*"],
+			"@constants": ["src/constants.ts"],
+			"@utils": ["src/utils.ts"],
+			"@types": ["src/types.ts"]
+		},
+		"resolveJsonModule": true,
+		"allowJs": false,
+		"sourceMap": true,
+		"removeComments": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"skipLibCheck": true
+	}
+}
